@@ -1,5 +1,5 @@
 # Stocks-analysis
-Analysis on green stocks in year 2017 & 2018. 
+Analysis on green stocks in year 2017 & 2018 
 
 ## Overview of Project: Exaplain the purpose of this analysis. 
 ### General Overview.
@@ -15,12 +15,12 @@ Along with supporting images below, potential investors would understand the pas
 #### Green stock performance in 2017
 Image below shows that majority of the green stocks in year 2017 had positive return rates, showing in green cells. These returns ranges from the minimum of 5.5% to maximum of 199.4%. This suggests that year 2017 was a definitely a good year to invest in green stocks.  
 The stock, which had a poor performance of negative return rate, was "TERP". (For further information or reasoning regarding this stock's negative return rate, a further research is required.)  
-<u><b>Total time for code run: <i> ~0.102 </i></b></u>
+<u><b>Total time for code run: <i> ~0.102 </i></b></u>  
 ![2017.png](Resources/VBA_Challenge_2017.png)  
   
 #### Green stock performance in 2018 
 Despite all the oustanding performances in 2017, the following year was definitely not an investing year for green stocks. Out of 12 from previous year, only 2 green stocks remained positive return rates in year 2018 - "ENPH" and "RUN".  
-<u><b>Total time for code run: <i> ~0.094 </i></b></u>
+<u><b>Total time for code run: <i> ~0.094 </i></b></u>  
 ![2018.png](Resources/VBA_Challenge_2018.png)
 
 #### Code - VBA
@@ -35,6 +35,6 @@ Despite all the oustanding performances in 2017, the following year was definite
   - Disadvantages: This requires a view from a higher perspective because this does not deal with one specific stock, but tons. Thus, refractoring code definitely requires more time just so that the codes could be well structured, organized, and easy to access. This also needs a lot of brainpower because there are multiple variables, interations, and arrays that needs to be tracked and monitored when coding. 
 
 - How do these pros and cons apply to refactoring the original VB script?
-   - The original VB script offers a shallower point of view. But with the originals, I was able to mirror and further develop codes into a deeper level that captures all the data from the reports with more efficient timing. There was a lot of times spent on debugging though. It took me approximately 1.5 hours to finally figure out the reason my analysis was not populating the correct numebr. The code was supposed to be Cells(i + 1, <u>1</u>).Value, but I accidently typed Cells(i + 1, <u>i</u>).Value and the return rates were showing 100% for all stocks. I had to go into line by line in ordeer to locate the error. (I guess this is the fun part!)
+   - The original VB script offers a shallower point of view. But with the originals, I was able to mirror and further develop codes into a deeper level that captures all the data from the reports with more efficient timing. There was a lot of times spent on debugging though. It took me approximately 1.5 hours to finally figure out the reason my analysis was not populating the correct numebr. The code was supposed to be Cells(i + 1, <u>1</u>).Value, but I accidently typed Cells(i + 1, <u>i</u>).Value and the return rates were showing 100% for all stocks. I had to go into line by line in ordeer to locate the error. (I guess this is the fun part!) 
  
 
